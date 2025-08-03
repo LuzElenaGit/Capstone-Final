@@ -36,7 +36,14 @@ Next step was to transform textual data into numerical features, an essential en
 - Keyword Presence: The existence of specific keywords commonly associated with spam (e.g., "free," "win," "prize") was encoded as binary features, providing direct indicators for classification.
 
 ## Model Selection:
-For this project, Neural Network and Logistic Regression models were utilized to evaluate their respective performances in spam email classification.
+For this project, Neural Network and Logistic Regression models were utilized to evaluate their respective performances in spam email classification. Following are the links to the notebooks:
+
+Logistic Regression model:
+https://github.com/LuzElenaGit/Capstone-Final/blob/main/LogisticRegressionModel.ipynb
+
+Neural Network model:
+https://github.com/LuzElenaGit/Capstone-Final/blob/main/NN-Model.ipynb
+
 Logistic Regression was selected for its efficiency in handling sparse feature vectors, a common characteristic of text data processed by methods like Bag of Words or TF-IDF. It is known for not requiring heavy computational resources or deep architectural configurations to achieve solid performance. Its speed in both training and prediction phases, coupled with its lightweight and computationally efficient nature, makes it a practical choice for real-time email filtering applications.
 The Neural Network model, a feed-forward architecture, was also implemented to explore its capabilities in this classification task. 
 While these two models were chosen for their specific benefits and complementary approaches, other machine learning algorithms were also considered for their potential applicability in this domain. These alternatives include:
